@@ -15,6 +15,7 @@ function calulate(event){
         document.querySelector('.input').value=string;
     }
     else if(event.target.innerHTML=='←'){
+        string=string.toString();
         if(string){
             string=string.slice(0,-1);
         }
