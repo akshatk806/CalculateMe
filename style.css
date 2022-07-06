@@ -7,6 +7,12 @@ html,body {
     padding:0;
     font-family: 'Roboto', sans-serif; 
 }
+.outer-container{
+    border: 3px solid black;
+    width: 410px;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
 .button{
     width: 66px;
     padding: 20px;
@@ -22,7 +28,7 @@ html,body {
     color: white;
 }
 .row{
-  margin: 8px 0;
+    margin: 8px 0;
 }
 .row input{
     width: 291px;
